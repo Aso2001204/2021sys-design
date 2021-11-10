@@ -123,7 +123,7 @@ item      }o----   maker
 item      }o-do---   cart
 item      }o-up---   category
 item       }--le---    purchase
-item      }-----     taxrate
+item      }--le---     taxrate
 purchase  }o-le---   customer
 customer  ---do-o{   customerChange
 purchase  ------   purchase_detail
