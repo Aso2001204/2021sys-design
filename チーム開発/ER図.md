@@ -125,7 +125,7 @@ item      }o-up---   category
 item       }--le---    purchase
 item      }--up---     taxrate
 purchase  }o-le---   customer
-customer  ---le-o{   customerChange
+customer  ----o{   customerChange
 purchase  ------   purchase_detail
 customer  ---up-||   withdrawal
 customer  }o-le-||   favorite
