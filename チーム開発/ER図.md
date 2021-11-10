@@ -61,6 +61,7 @@ entity "商品マスタ" as item <m_item><<M,MASTER_MARK_COLOR>>{
  + item_code [PK]
  + maker_id [PK][FK]
  --
+ taxrate_id [FK]
  item_name
  price
  image
@@ -109,6 +110,12 @@ entity "メーカーマスタ" as maker <m_maker><<M,MASTER_MARK_COLOR>>{
  adress
  tel
  reg_date
+}
+
+entyty "税率マスタ" as taxrate <m_taxrate><<M,MASTER_MARK_COLOR>>{
+ + taxrate_id [PK]
+ --
+ tax
 }
 
 item      ---ri-o{   itemChange
