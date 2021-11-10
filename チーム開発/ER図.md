@@ -112,7 +112,7 @@ entity "メーカーマスタ" as maker <m_maker><<M,MASTER_MARK_COLOR>>{
  reg_date
 }
 
-entyty "税率マスタ" as taxrate <m_taxrate><<M,MASTER_MARK_COLOR>>{
+entity "税率マスタ" as taxrate <m_taxrate><<M,MASTER_MARK_COLOR>>{
  + taxrate_id [PK]
  --
  tax
