@@ -2,10 +2,10 @@
 AUTO_INCREMENT…自動採番
 
 *****
-### 管理者マスタ <m_customers> ###
+### 管理者マスタ <m_administrator> ###
 |      和名      |    属性名    |      型      | PK | FK | NN |    その他    |
 |----------------|-------------|--------------|----|----|----|--------------|
-|管理者コード      |ad_code |varchar(50)   |〇  |-   |〇  |AUTO_INCREMENT|
+|管理者コード      |ad_code    |varchar(50)   |〇  |-   |〇  |AUTO_INCREMENT|
 |顧客名　　      |name          |varchar(50)   |-   |-   |〇  |-             |
 |パスワード      |pass          |varchar(50)   |-   |-   |〇  |-             |
 |電話番号       |tel           |varchar(20)   |-   |-   |〇  |-             |
